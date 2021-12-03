@@ -1,0 +1,125 @@
+
+  .value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 1;
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+
+  form #decrease1 {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase1 {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #decrease2 {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase2 {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  form #decrease3 {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  form #increase3 {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#number3 {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 15px;
+  }
+  
+  input#number1 {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 15px;
+  }
+
+  input#number2 {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 15px;
+  }
+
+  input[type=number3]::-webkit-inner-spin-button,
+  input[type=number3]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  input[type=number1]::-webkit-inner-spin-button,
+  input[type=number1]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+
+  }
+
+  input[type=number2]::-webkit-inner-spin-button,
+  input[type=number2]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+
+  }
+
+  .checked {
+    color: orange;
+  }
+
+
+  .err_msg
+  {
+    color:red; 
+    text-decoration:underline;
+    
+  }
+  
+  #display_info{
+    color:green;
+    
+  
+  }
